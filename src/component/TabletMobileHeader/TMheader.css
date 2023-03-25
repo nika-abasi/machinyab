@@ -1,0 +1,73 @@
+.main-tablet-header {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  height: 120px;
+  padding: 5px 10px;
+  display: flex;
+  z-index: 1;
+}
+.container-tablet-fluid {
+  position: relative;
+  display: flex;
+  padding: 15px 5px;
+  width: 100%;
+  
+}
+.main-header-tablet-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  position: absolute;
+}
+.main-header-tablet__left {
+  position: relatiave;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.sort-icon {
+  transform: scaleY(-1);
+}
+.login-btn {
+  width: 100%;
+  height: 80px;
+  background-color: var(--primary-color);
+  padding: 10px 0;
+}
+.login-btn ul {
+  width: 100%;
+  padding: 8px 30px;
+}
+.login-btn ul li {
+  position: absolute;
+  height: 35px;
+  width: 80%;
+  background-color: var(--icon-bg);
+  padding: 0 35px;
+  border-radius: 5px;
+}
+.login-btn ul li a {
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.main-header-tablet__right {
+  display: flex;
+  width: 100%;
+  height: 39px;
+  background-color: rgb(3, 54, 112);
+}
+
+@media screen and (min-width: 890px) {
+  .main-tablet-header {
+    display: none;
+  }
+}

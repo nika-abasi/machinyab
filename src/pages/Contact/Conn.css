@@ -1,0 +1,303 @@
+  /* .divider{
+    display: block;
+    width: 80%;
+    border-top: 1px solid #707070;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+.contact-main-container{
+   width: 80%;
+   position: relative;
+   right: 10%;
+   padding: 50px;
+   text-align: center;
+    background-color: aqua;
+    top: 50%;
+   
+} 
+.recaptcha-parent{
+
+margin-top: 2%;
+margin-right: 35%;
+ text-align: center;
+ background-color: chartreuse;
+ 
+}
+.login-form__btn{
+   position: relative;
+   border: none;
+   top: 20px;
+   width: 50px;
+    border-radius: 5px;
+    padding: 0.8rem 1.2rem;
+    margin-top: 0.8rem;
+    display: flex;
+    align-items: center;
+   
+} 
+
+.contact-form{
+    width:80%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 10%;
+   background-color: yellow;
+    
+}
+
+
+.contact-form__username{
+    width: 40%;
+     margin-right: 10%;
+    background-color: rgb(212, 214, 62);
+}
+.contact-form__userInfo{
+    width: 40%;
+   margin-right: 10%;
+    background-color: rgb(170, 106, 106);
+}
+/* ============================== Login-Register Style ============================== */
+/* .login-register {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.login-register::before {
+  content: "";
+  position: absolute;
+  top: -5rem;
+  width: 150%;
+  height: 380px;
+  background-color: #2bce56;
+  z-index: -1;
+  transform: rotate(-4deg);
+}
+.login-register::after {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 380px;
+  background-color: rgb(43, 206, 86, 0.6);
+  z-index: -9999;
+  transform: rotate(-4deg);
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0;
+  padding: 2.5rem 2rem 5rem 2rem;
+  background-color: var(--white-color);
+  box-shadow: 0 6px 20px rgba(168, 172, 185, 0.3);
+  border-radius: 5px;
+  width: 50rem;
+  border-bottom: 5px solid #2bce56;
+}
+.login__title {
+  display: block;
+  color: #7b868a;
+  font-size: 2.2rem;
+}
+.login__subtitle {
+  display: block;
+  color: #7b868a;
+  font-size: 1.5rem;
+}
+.login-form {
+  background-color: rgb(8, 115, 148);
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  
+}
+.login-form__parent {
+  position: relative;
+}
+.login-form__username-input,
+.login-form__password-input {
+  width: 80%;
+  border: 1px solid #e6e6e6;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  margin: 0.8rem 0;
+  border-radius: 5px;
+  font-size: 1.4rem;
+
+}
+input:focus::-webkit-input-placeholder {
+  position: relative;
+	display: block;
+	top: -25px;
+	right: 10px;
+	transition: 0.2s ease all;
+  font-size: 16px;
+}
+
+.login-form__password-icon {
+  position: absolute;
+  left: 1.5rem;
+  top: 2rem;
+  font-size: 2.2rem;
+  color: #ccc;
+}
+.login-form__text {
+  margin: 0.8rem 0;
+
+}
+.login-form__text-input {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
+  font-size: 1.4rem;
+  height: 130px;
+}
+.login-form__btn {
+  width: 20%;
+  border: none;
+  border-radius: 3px;
+  padding: 1.2rem 0;
+  margin-top: 5px;
+  margin-right: 40%;
+  display: flex;
+  align-items: center;
+  background-color: plum;
+
+}
+
+.login-form__btn-success {
+  background-color: green;
+  cursor: pointer;
+}
+
+.login-form__btn-error {
+  background-color: red;
+}
+
+.login-form__btn-text {
+  color: var(--white-color);
+  margin: 0 auto;
+
+}
+.login-form__password-setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.login-form__password-remember {
+  display: flex;
+  align-items: center;
+}
+.login-form__password-checkbox {
+  margin-left: 1rem;
+}
+.login-form__password-text {
+  color: #6c757d;
+  font-size: 1.4rem;
+}
+.login-form__password-forget-link {
+  color: #6c757d;
+  font-size: 1.4rem;
+}
+.table-right{
+  width: 50%;
+background-color: gold;
+}
+.table-left{
+  width: 50%;
+background-color: pink;
+}
+
+
+============================== Login-Register Style ============================== */ 
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+.form-container {
+  width: 85%;
+  background-color: rgb(54, 221, 193);
+  margin-right: 7%;
+ margin-top: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 15px 0;
+  display: flex;
+  
+  ;
+}
+.form-field{
+
+  width: 35%;
+  border-radius: 5px;
+  background-color: rgb(226, 222, 4);
+  
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 40px 10px;
+  flex-flow: row wrap;
+  background-color: #ffa4a4;
+  
+}
+
+.success-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f89f8;
+  padding: 2px;
+  color: white;
+  position: absolute;
+   top: 110%;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+ 
+}
+
+/* span {
+  height: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+ 
+} */
+.error-message{
+  width: 165px;
+  background-color: #4caf50;
+  margin-top: 25px;
+  height: 30px;
+  font-size: 12px;
+ 
+}
+
+input {
+  background: #f2f2f2;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+ 

@@ -1,0 +1,19 @@
+.courses{
+    margin-top: 250px;
+    background-color: rgb(243, 104, 69);
+}
+.search-main-container{
+    width: 100%;
+    height: 100px;
+    background-color: yellowgreen;
+}
+.category-footer{
+    position:relative;
+   top: 210px;
+    margin-right: -25px;
+   }
+   .page-main{
+    
+    
+    background-color: fuchsia;
+   }

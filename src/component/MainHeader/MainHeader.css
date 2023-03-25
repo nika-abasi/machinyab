@@ -1,0 +1,153 @@
+Start main-header Styles
+.main-header{
+  height: 120px;
+    padding: 5px;
+position: sticky;
+ 
+  }
+ 
+  .main-header-content{
+    display:flex ;
+    height: 80px;
+    padding: 0;
+   
+  }
+
+  .main-header__right{
+    display: flex;
+    padding: 1rem 2rem ;
+    justify-content: space-around;
+    align-items: center;
+      }
+  .main-header__centre{
+   padding:20px 0;
+  }
+
+ 
+  .main-header__left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem ;
+     
+  }
+  .main-header__right ul li{
+    margin-top: 30px;
+    height: 40px;
+     }
+  .main-header__right ul li a{
+    color: var(--dark-color);
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 30px;
+     }
+  
+  .main-header-logo{
+   width: 70%;
+   height: 90%;
+    background-color: darkgoldenrod;
+  }
+   
+  .input-group{
+    
+    height: 54px;
+     direction: ltr;
+     background-color:var(--light-bg);
+     border-radius: 15px;
+     width: 90% !important;
+     margin-top: -15px;
+     margin-right: 17px;
+     }
+     .change-height{
+      margin-top: 0;
+      background-color:var(--white-color);
+     }
+     .scroll-margin{
+     
+      margin-top: -50px;
+     }
+  .input-group input{
+    
+    font-size:1rem;
+    border: none;
+    
+  }
+  .form-control{
+    height: 100%;
+    border: none;
+    
+      }
+  .btn{
+    background-color:var(--light-bg);
+  }
+  .btn :hover{
+    background-color: var(--primary-color);
+  }
+  .search-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 50px;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+     }
+.fix{
+  position: fixed;
+   top: 0;
+   width: 100%;
+     border-bottom: 1px solid #b0b0b1;
+}
+.change-height{
+  height:60px;
+  
+}
+.scroll-margin{
+  top: 30px !important;
+  height: 34px !important;
+}
+
+.hideLogo{
+display: none;
+}
+
+.main-bar__phone{
+  padding: 0.1rem 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  display: none;
+}
+.main-bar__phone a{
+  margin-right: 5px;
+  font-size: 0.6rem;
+  text-decoration: none;
+ }
+.showTel{
+  display: block;
+  display: flex;
+  justify-content: center;
+  
+}
+.showTel a{
+ display: none;
+}
+
+  /*mobile*/
+ @media screen and (max-width: 890px){
+  .main-header {
+      display: none;
+  }
+
+  .main-header-display{
+   background-color: rgb(219, 88, 110);
+}
+.main-bar__phone a{
+  margin-right: 5px;
+  font-size: 0.4rem;
+ 
+ }
+
+}
+  

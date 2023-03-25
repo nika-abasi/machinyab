@@ -1,0 +1,249 @@
+.feature-product_container{
+    position: absolute;
+     width:90%;
+   padding: 5px 12px;
+     background-color: rgb(216, 216, 48);
+     
+ }
+ 
+ 
+ .brand-container{
+     
+    
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+   padding: 50px 0;
+   
+ }
+ .image-brand-container{
+     
+     width: 14%;
+     height:100% ;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+     
+     background-color: rgb(94, 20, 32);
+ } 
+ /* .image-brand-container{
+     position: relative;
+     width: 18%;
+     height:100% ;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+     flex-direction: column;
+     padding: 20px 30px;
+    
+ } */
+ .image-brand-container img{
+     width: 100%;
+     height: 100%;
+     
+ }
+ 
+ .brand-content_containre{
+     width: 100%;
+     border: 1px solid #b0b0b1;
+     display: flex;
+     justify-content: space-between;
+    
+     right: 0;
+     position: absolute;
+     bottom: -510px;
+     z-index: -2;
+     padding: 80px 30px;
+     background-color: rgb(228, 120, 20);
+ }
+ .color{
+   background-color: darkmagenta;
+ }
+ 
+ .active{
+     border-color: #0cdab7 rgb(0 0 0 / 0%) rgb(0 0 0 / 0%);
+ }
+ .brand-discription{
+     justify-content: right;
+     text-align: justify;
+   
+    
+     background-color:greenyellow ;
+ }
+ .new-item-container{
+   display: flex;
+ }
+ .new-item{
+     width: 33.33333%;
+     margin-right: 20px;
+ }
+ 
+ .new-item img{
+    height: 40%;
+ }
+ .item a{
+     position: absolute;
+     width: 220px;
+     height: 175px;
+     bottom: 1px;
+ }  
+ 
+ /* .underline-container{
+     position: absolute;
+     bottom: -50px;
+    margin-right: -36px;
+     width: 201px;
+     height: 13px;
+     background-color: #b0b0b1;
+    
+ } */
+ 
+ 
+ nav a {
+     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+     text-decoration: none;
+     transition: color 0.1s, background-color 0.1s;
+ }
+ nav a {
+     position: absolute;
+     display: block;
+     padding: 16px 0;
+     margin: 0 12px;
+     letter-spacing: 1px;
+     font-size: 12px;
+     line-height: 16px;
+     font-weight: 900;
+     text-transform: uppercase;
+     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+     color: #000;
+ }
+ nav a::before {
+     content: '';
+     display: block;
+     position: relative;
+     bottom: -209px;
+     
+     right: -13px;
+     height: 13px;
+     width: 170px;
+     background-color: rgb(16, 73, 179);
+     transform-origin: right top;
+     transform: scale(0, 1);
+     /* transition: color 0.1s,transform 0.2s ease-out; */
+ }
+ 
+ nav a::after{
+     content: '';
+     display: block;
+     position: relative;
+     bottom: -209px;
+     right: 60px;
+     width: 0;
+     height: 0;
+     border-style: solid;
+     border-width: 7px 7px 0;
+     border-color: transparent;
+ }
+ nav a:hover::before,nav  a:focus::before {
+     transform-origin: left top;
+     transform: scale(1, 1);
+ }
+ 
+ nav a:hover::after,nav  a:focus::after,nav  a:active::after {
+     transform-origin: left top;
+     transform: scale(1, 1);
+     border-color: rgb(16, 73, 179) rgb(0 0 0 / 0%) rgb(0 0 0 / 0%);
+ }
+ 
+ 
+ 
+ /*iPad landscape*/
+ @media  (max-width: 1024px){
+     nav a::before{
+         width: 128px;
+        
+     }
+     nav a::after{
+         right: 45px;
+     }
+     .new-item{
+         margin-right: 15px;
+     }
+ }
+ /*iPhone eXpensive portrait · width: 375px*/
+ @media   (max-width: 480px){
+     .feature-product_container{
+         right: 15px;
+         background-color: pink;
+     }
+   
+     .brand-content_containre{
+          flex-direction: column;      
+         bottom: -1300px;
+         background-color: rgb(0, 217, 255);
+ }
+     .new-item{
+         margin-top: 10px;
+         margin-right: 25px;
+         width: 100%;
+     }
+     .new-item-container{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(4, 4, 73);
+     }
+     
+     .brand-discription{
+         background-color: darkslateblue;
+         height: 200px;
+     }
+     nav a::after, nav a::before {
+         display: none;
+     }
+     
+ }
+ /*iPhone 6-8 Plump landscape · width: 736px*/
+ @media (min-width:481px) and (max-width: 768px){
+     .brand-content_containre{
+                
+                bottom: -800px;
+                background-color: rgb(0, 217, 255);
+     }
+     
+    
+     .new-item-container{
+         display: flex;
+         flex-direction: row;
+        
+     }
+     .new-item{
+         width: 33.333%;
+         margin-top: 10px;
+        margin-right: 10px;
+     }
+     nav a::before,  nav a::after{
+         display: none;
+     }
+      
+     nav a::before{
+         width: 92px;
+        
+     }
+     .brand-content_containre{
+         flex-direction: column;
+         background-color: rgb(105, 34, 58);
+     }
+     .brand-discription{
+         background-color: rgb(25, 0, 255);
+         width: 400px;
+          height: 300px;
+          margin-right: 100px;
+          
+      }
+     
+ }
+ 
+ 

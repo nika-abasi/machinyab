@@ -1,0 +1,26 @@
+.success {
+    border: 2px solid var(--primary-color) !important;
+}
+
+.error {
+    border: 2px solid red !important;
+}
+
+ .inputText{
+	width: 100%;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #777;
+ 	box-shadow: none !important;
+}
+.inputText:focus{
+	border-color: blue;
+	border-width: medium medium 2px;
+}
+ .floating-label {
+	position: absolute;
+	pointer-events: none;
+	top: 18px;
+	left: 10px;
+	transition: 0.2s ease all;
+}

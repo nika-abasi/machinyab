@@ -1,0 +1,75 @@
+
+@media screen and (max-width: 890px){
+    .top-bar{
+        display: none;
+    }
+
+   
+    
+  
+  }
+
+  
+
+/* Start Top-Bar Styles */
+
+.top-bar{
+    padding: 0.4rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 15px;
+  
+   
+}
+.top-bar a{
+    color: var(--white-color);
+    font-weight: 800;
+    font-size: 0.6rem;
+    
+    
+}
+.top-bar__content{
+    display: flex;
+}
+.top-bar__right{
+    display: flex;
+    
+}
+.top-bar__phone{
+    padding: 0.1rem 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    
+}
+.top-bar__phone a{
+    margin-right: 5px;
+    font-size: 0.6rem;
+    text-decoration: none;
+   
+    
+}
+.top-bar__language{
+    padding: 0.1rem 0.8rem;
+    display: flex;
+    
+}
+
+.language-btn{
+    box-shadow: none;
+    font-size: 16;
+    padding: '12px 12px';
+    border: none;
+    border-radius: 20px;
+    line-height: 1.5;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    cursor: pointer;
+}   
+.language-btn:hover{
+    background-color: var(--light-primary-color);
+   
+   box-shadow:  'none';
+}
+

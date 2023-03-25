@@ -1,0 +1,40 @@
+
+
+.product-list-table-container h3{
+    margin-top: 50px;
+    
+}
+.product-list-table-container p{
+    text-align:justify;
+}
+.table{
+    direction: ltr;
+   
+       
+     
+}
+.table-container{
+    display: flex;
+   justify-content: space-around;
+   
+}
+.tbody-width{
+    max-width: 50%;
+   
+}
+.tr-row{
+    background-color: yellow;
+    columns: 2 auto;
+}
+@media screen and (max-width: 600px){
+    .table-container{
+       flex-direction: column;
+     
+    }
+
+    .tbody-width{
+        max-width: 100%;
+       
+    }
+}
+

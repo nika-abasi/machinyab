@@ -1,0 +1,19 @@
+.hr{
+   margin: 0;
+  
+}
+.header{
+   z-index: 999;
+   position: relative;
+  
+}
+
+.fix{
+position: fixed;
+  top: 50px;
+     width: 100%;
+    
+}
+.hide{
+  display: block;
+}

@@ -1,0 +1,13 @@
+
+.text-link{
+    cursor:pointer;
+    text-decoration: none;
+ 
+}
+
+/*iPhone 6-8 Plump landscape · width: 736px*/
+@media  (max-width:414px){
+    .MuiCard-root{
+       background-color: aquamarine;
+    }
+}

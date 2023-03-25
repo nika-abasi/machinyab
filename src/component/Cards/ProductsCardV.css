@@ -1,0 +1,140 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+     
+    height:300px;
+       border-bottom: 1px;
+    background-color: chartreuse;
+    
+    padding:0 ;
+}
+.card-container:hover>.card-img-left {
+    height: 100px;
+}
+.card-container:hover>.actione-wrapper{
+   visibility: visible;
+}
+.card-img-left{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    border: 1px solid var(--mid-color);
+}
+.card-img-left img{
+  width: 80%;
+  height: 100%;
+}
+.card-body-content{
+   height: 500px;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+   background-color: rgb(236, 135, 10);
+}
+.card-body-headline{
+    
+    background-color: coral;
+
+}
+.card-body-content h4{
+    color: var(--base-color);
+    font-size:1rem;
+    font-weight: 700;
+  
+}
+.card-body-content h4 a{
+     text-decoration: none;
+    
+}
+.card-body-content h5{
+    font-size:0.8rem;
+}
+.font-weight{
+    font-weight: 700;
+}
+.table__height{
+  
+   margin-top: 20px;
+  line-height: 10px;
+background-color: darkcyan;
+}
+.table__height tr{
+    display: flex;
+    justify-content: space-between;
+}
+.product-aditional-info{
+   padding: 0 5px;
+   width: 100%;
+    background-color: rgb(5, 87, 46);
+  
+   
+}
+.product-qty-input{
+    width: 36px;
+    height: 36px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(242, 242, 242);
+    
+   
+}
+.btn-primary{
+    background-color: var( --icon-bg) !important;
+    border: none !important;
+    width: 90%;
+    margin-right: 13px;
+}
+.btn-secondary{
+    background-color: var(--mid-color) !important;
+    border: none !important;
+    width: 90%;
+    margin-right: 13px;
+}
+.product-price-grid{
+
+ width: 100%;
+ font-size: 1.2rem;
+ font-weight: 700;
+ background-color: rgb(42, 171, 214);
+}
+.actione-wrapper{
+    display: flex;
+    visibility: hidden;
+    width: 100%;
+    padding:30px 0;
+        background-color: rgb(90, 121, 60);
+}
+.product-item-inner{
+        display: flex;
+        background-color: lightskyblue;
+   
+}
+.product-item-qty{
+    display: flex;
+    width: 40%;
+    height: 100px;
+    padding-top: 30px;
+    background-color: pink;
+}
+.product-btn-grid{
+    width: 60%;
+    height: 100%;
+   
+    background-color: darkslategrey;
+}
+.actione-wrapper a{
+    margin-top: 10px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

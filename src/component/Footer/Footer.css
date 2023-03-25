@@ -1,0 +1,200 @@
+.footer {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+ 
+  padding: 0 1rem;
+  background-color: var(--black);
+  z-index: -2;
+}
+.footer-container {
+  width: 100%;
+  display: flex;
+
+  background-color: var(--black);
+  z-index: -1;
+}
+.footer-widgets {
+  width: 100%;
+  background-color: rgb(214, 110, 110);
+
+  /* padding: 2rem 1.5rem; */
+  position: absolute;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 97;
+  justify-content: center;
+  
+}
+
+.social-app-row {
+  
+  height: fit-content;
+  display: flex;
+  padding: 10px 0;
+  background-color: darkorange;
+}
+
+.social-app-row ul {
+  padding: 5px;
+  display: flex;
+  
+  
+  background-color: cadetblue;
+}
+.social-app-row ul li{
+ background-color: blueviolet;
+}
+
+.rss {
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: #f8991d;
+}
+.youtube {
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: #f70000;
+  margin-right: 10px;
+}
+
+.twitter {
+  width: 75px;
+  height: 75px;
+  margin-top: 1px;
+  border-radius: 25px;
+  background-color: #0a58ca;
+  margin-right: 10px;
+}
+.facebook {
+  width: 42px;
+  height: 42px;
+  margin-top: -3px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.instagram {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  margin-top: 1px;
+  border-radius: 25px;
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.more-info-row {
+  height: fit-content;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+.footer__copyright {
+  margin-top: 30px;
+}
+.footer__copyright-text {
+  color: white;
+  font-size: 12px;
+}
+
+.footer-links-row {
+  margin-top: 20px;
+  background-color: red;
+}
+.footer-links-row ul {
+  padding: 0 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+.footer-links-row ul.row-2 {
+ 
+  background-color: #f09433;
+}
+.footer-links-row ul li {
+  cursor: pointer !important;
+  margin-right: 20px;
+  background-color: deeppink;
+}
+
+.footer-links-row ul li a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+.footer-links-row ul li a:hover {
+  background-color: rgb(12, 12, 12);
+  cursor: pointer;
+}
+
+/*iPhone eXpensive portrait · width: 375px*/
+@media screen and (max-width: 480px){
+  .footer-links-row ul {
+    padding: 0;
+     flex-direction: column;
+  }
+  .footer-links-row ul li {
+    width:200px;
+  display: flex;
+  justify-content: center;
+    background-color: #f09433;
+    margin-top: 10px;
+ }
+ .footer-links-row ul.row-2{
+  padding: 0 ;
+ }
+  .footer{
+   
+    top: 5000px;
+  }
+}
+@media (min-width:481px) and (max-width: 768px){
+  .footer{
+   
+    top: 3750px;
+  }
+  .footer-links-row ul{
+    padding: 0;
+  }
+  .footer-links-row ul li{
+    margin-right: 20px;
+   
+  }
+}
+
