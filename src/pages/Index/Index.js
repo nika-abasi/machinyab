@@ -54,6 +54,7 @@ export default function Index({ props }) {
   // console.log("courses",courses);
   return (
     <>
+      <h1>has been modified </h1>
       <div className="main-row">
         <Header />
       </div>
@@ -102,7 +103,7 @@ export default function Index({ props }) {
                 <CardContent>
                   <Typography variant="h5" component={'span'}>
                     <MdAssistant style={{ color: "#EBAE1F" }} />
-                    &nbsp;&nbsp;مشاوره تخصصی ماdddddddddddd
+                    &nbsp;&nbsp;مشاوره تخصصی 
                   </Typography>
                   <br />
                   <Typography variant="body2" component={'span'}>
