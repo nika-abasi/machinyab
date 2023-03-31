@@ -17,7 +17,7 @@ const port = +process.env.PORT;
 })();
 
 
-mongoose.connect('mongodb://machinya_machinya:my@392023@machinyab.com:27017/machinya_db', {
+mongoose.connect('mongodb://machinya_machinya:Nika!805210@localhost:27017/machinya_db', {
   useNewUrlParser: true,
   authSource: 'admin'
 });

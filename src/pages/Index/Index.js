@@ -33,7 +33,7 @@ export default function Index({ props }) {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:4000/v1/articles`)
+    fetch(`https://api.machinyab.com/v1/articles`)
     .then((res)=>res.json())
     .then((allCategories)=>{
       setArticles(allCategories)
@@ -41,7 +41,7 @@ export default function Index({ props }) {
   }, [])
 
   useEffect(() => {
-    fetch(`http://localhost:4000/v1/courses`)
+    fetch(`https://api.machinyab.com/v1/courses`)
     .then((res)=>res.json())
     .then((allCourses)=>{
       setCourses(allCourses)
